@@ -17,7 +17,6 @@ jobs:
           mkdir out
           for p in parts/*.part00; do f=$(basename "$p" .part00); cat parts/"$f".part* > out/"$f"; done
           (cd out && sha256sum -c ../parts/SHA256SUMS)
-          cp latest.yml dns-tv-version.json out/
           echo "V=v$(node -p "require('./dns-tv-version.json').version")" >> "$GITHUB_ENV"
       - name: Page de version
         env: { GH_TOKEN: '${{ github.token }}' }
