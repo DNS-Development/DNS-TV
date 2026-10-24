@@ -1,0 +1,31 @@
+{
+ "app": "DNS TV",
+ "version": "4.3.2",
+ "date": "2026-10-24T12:13:50.742Z",
+ "files": [
+  {
+   "name": "dns-tv-android-4.3.2.apk",
+   "platform": "android",
+   "size": 11264426,
+   "sha256": "ef877aef306390c6f5b1ef88f5035ae9e5f835afd64bd28ba66343af0c43d0c6"
+  },
+  {
+   "name": "dns-tv-tv-4.3.2.apk",
+   "platform": "tv",
+   "size": 11571177,
+   "sha256": "3f4b252436c357ad74ee22bf61a83dd3635d16a89de20b7cd0e22551ed1d800a"
+  },
+  {
+   "name": "dns-tv-windows-4.3.2-portable.exe",
+   "platform": "windows-portable",
+   "size": 139360779,
+   "sha256": "c28a077cf039a105088f64cc62ec1b384597641d34fcd5f27d20f803e6180ac9"
+  },
+  {
+   "name": "dns-tv-windows-4.3.2-setup.exe",
+   "platform": "windows",
+   "size": 139630516,
+   "sha256": "fe765b41f182c49edb3bfcfaefff9323411bbae0d8c73568faa1e1396f2b711a"
+  }
+ ]
+}
